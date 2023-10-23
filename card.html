@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etnodim</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <input class="burger-input" type="checkbox" id="burger">
+        <label class="burger-label" for="burger"></label>
+        <nav class="header__mobile">
+            <a href="index.html" class="mobile-logo" name="logo-anchor">
+                <img 
+                    srcset="./images/logo-mobile.jpg 95w,
+                            ./images/logo.jpg 184w"
+                    sizes="(max-width: 460px) 95px,
+                           (min-width: 461px) 184px"
+                    src="./images/logo.jpg">
+            </a>
+            <ul class="header__mobile-list">
+                <li class="header__mobile-item"><a class="header__mobile-link header__mobile-link_catalog">Каталог</a></li>
+                <li class="header__mobile-item"><a href="#" class="header__mobile-link">Знижки</a></li>
+                <li class="header__mobile-item"><a href="#" class="header__mobile-link">Блог</a></li>
+                <li class="header__mobile-item"><a href="#" class="header__mobile-link">Про нас</a></li>
+            </ul>
+            <ul class="mobile-lang">
+                <li class="mobile-lang__item"><a href="" class="mobile-lang__link mobile-lang__link_active">UA</a></li>
+                <li class="mobile-lang__item"><a href="" class="mobile-lang__link">RU</a></li>
+                <li class="mobile-lang__item"><a href="" class="mobile-lang__link">EN</a></li>
+                <li class="mobile-lang__item"><a href="" class="mobile-lang__link">|</a></li>
+                <li class="mobile-lang__item"><a href="" class="mobile-lang__link"><img src="./images/uah.svg"></a></li>
+                <li class="mobile-lang__item"><a href="" class="mobile-lang__link"><img src="./images/dol.svg"></a></li>
+                <li class="mobile-lang__item"><a href="" class="mobile-lang__link"><img src="./images/evro.svg"></a></li>
+            </ul>
+        </nav>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link header__link_catalog">Каталог</a></li>
+                <li class="header__item"><a href="#" class="header__link">Знижки</a></li>
+                <li class="header__item"><a href="#" class="header__link">Блог</a></li>
+                <li class="header__item"><a href="#" class="header__link">Про нас</a></li>
+            </ul>
+        </nav>
+       <a href="./index.html" class="logo" id="logo-anchor">
+        <img 
+        srcset="./images/logo-mobile.jpg 95w,
+        ./images/logo.jpg 184w"
+        sizes="(max-width: 460px) 95px,
+       (min-width: 461px) 184px"
+        src="./images/logo.jpg">
+    </a>
+       <div class="shop-nav">
+        <ul class="shop-nav__list">
+            <li class="shop-nav__item shop-nav__item_lang"><a href="#" class="shop-nav__link lang">UA</a></li>
+            <li class="shop-nav__item shop-nav__item_currency"><a href="#" class="shop-nav__link currency"></a></li>
+            <li class="shop-nav__item shop-nav__item_tel"><a href="#" class="shop-nav__link tel">+38 097 888 9292</a></li>
+            <li class="shop-nav__item shop-nav__item_search"><a href="#" class="shop-nav__link search"></a></li>
+            <li class="shop-nav__item shop-nav__item_cart"><a href="./basket.html" class="shop-nav__link cart"><span class="quantity">1</span></a></li>
+        </ul>
+       </div>
+    </header>
+    <div class="hero-card">
+        <div class="breadcrumb__mobile">
+            <a href="./index.html">Жіночі вишиванки</a>
+        </div>
+        <div class="breadcrumb">
+            <ul class="breadcrumb__list">
+                <li class="breadcrumb__item"><a href="#" class="breadcrumb__link">Головна</a></li>
+                <li class="breadcrumb__item"><a href="#" class="breadcrumb__link">Жінкам</a></li>
+                <li class="breadcrumb__item"><a href="./index.html" class="breadcrumb__link">Жіночі вишиванки</a></li>
+                <li class="breadcrumb__item"><a class="breadcrumb__link breadcrumb__link_current">Вишиванка з рослинним орнаментом Lito</a></li>        
+            </ul>
+        </div> 
+        <div class="hero-card__main">
+            <div class="hero-card__catalog">
+                <div class="hero-card__img main-photo">
+                    <img 
+                       srcset="./images/card-img1-mob.jpg 356w,
+                               ./images/card-img1.jpg 720w"
+                       sizes="(max-width: 460px) 356px,
+                              (min-width: 461px) 720px"
+                       src="./images/card-img1.jpg" alt="catalog photo">
+                </div>
+                <div class="hero-card__img other-photo">
+                    <img 
+                    srcset="./images/card-img2-mob.jpg 168w,
+                            ./images/card-img2.jpg 340w"
+                     sizes="(max-width: 460px) 168px,
+                    (min-width: 461px) 340px"
+                    src="./images/card-img2.jpg" alt="catalog photo"/>
+                </div>
+                <div class="hero-card__img other-photo">
+                    <img 
+                    srcset="./images/card-img3-mob.jpg 168w,
+                    ./images/card-img3.jpg 340w"
+                      sizes="(max-width: 460px) 168px,
+                    (min-width: 461px) 340px"
+                    src="./images/card-img3.jpg" alt="catalog photo"/>
+                </div>
+                <div class="hero-card__img other-photo hidden">
+                    <img 
+                    srcset="./images/card-img4-mob.jpg 168w,
+                    ./images/card-img4.jpg 340w"
+                   sizes="(max-width: 460px) 168px,
+                    (min-width: 461px) 340px"
+                    src="./images/card-img4.jpg" alt="catalog photo"/>
+                </div>
+                <div class="hero-card__img other-photo video">
+                    <img src="./images/card-video.jpg" alt="catalog photo"/>
+                </div>
+                <div class="carousel__btn-mobile">
+                    <a class="back-mobile" href=""></a>
+                    <a class="forward-mobile" href=""></a>
+                </div>
+            </div>
+            <div class="hero-card__info">
+                <div class="hero-card__title">
+                    <p class="hero-card__title_hidden">entodim</p>
+                    <h2>Вишиванка з рослинним орнаментом Lito</h2>
+                </div>
+                <form action="" class="hero-card__form">
+                    <div class="quantity-block">
+                        <label>Колір: бежевий</label>
+                        <button class="quantity-arrow-minus"> - </button>
+                        <input class="quantity-num" type="number" value="1" />
+                        <button class="quantity-arrow-plus"> + </button>
+                      </div>
+                    <div class="btn-group">
+                        <button>32 | XXS</button>
+                        <button>34 | XS</button>
+                        <button>36 | S</button>
+                        <button class="btn-group__current">38 | M</button>
+                        <button>40 | L</button>
+                        <button>42 | XL</button>
+                    </div>
+                    <div class="btn-group-mobile">
+                        <button>32 XXS</button>
+                        <button>34 XS</button>
+                        <button>36 S</button>
+                        <button class="btn-group__current-mobile">38 M</button>
+                        <button>40 L</button>
+                        <button>42 XL</button>
+                    </div>
+                    <a href="#" aria-label="table size">Таблиця розмірів</a>
+                    <p>2 800 грн.</p>
+                    <button type="submit" aria-label="submit button" class="btn-submit">Купити</button> 
+                </form>
+                <div class="block-support__aside">
+                    <label class="accordion block-support__item">
+                         <input type="checkbox" name="accordion">
+                         <div class="block-support__question main-text">Про товар</div>
+                         <div class=" block-support__item_active">
+                            <p class="block-support__text_active">
+                                Тепло, на яке кожен так довго чекав, здається прийшло. А разом з ним нова  вишиванка під назвою LITO.</p>
+                            <p>Створена в ніжному кремовому відтінку на тлі якого щедро розмістились польові квіти. Фактурні та різноманітні, кольорові, унікальні-саме такі, як спогади про літо дизайнерки Лілії Касянчук, котра через вишивку передала спогади із власного дитинства.</p>
+                            <p>Сорочка стане невід’ємною частиною гардеробу не тільки на весняно- літній сезон, але й поверне вас до спогадів про літо в холодну пору року.</p>
+                            <p>Якщо Ви не впевнені щодо розміру - зверніться до наших менеджерів, ми завжди раді Вам допомогти:) </p>
+                         </div>
+                    </label>
+                    <label class="accordion block-support__item">
+                        <input type="checkbox" name="accordion">
+                        <div class="block-support__question main-text">Склад та догляд</div>
+                        <div class=" block-support__item_active">
+                           <p class="block-support__text_active">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint natus velit praesentium! Explicabo eaque animi quaerat eius amet quae nulla. Accusantium iusto repudiandae nulla cum sit maiores modi explicabo minus.</p>
+                        </div>
+                   </label>
+                   <label class="accordion block-support__item">
+                    <input type="checkbox" name="accordion">
+                    <div class="block-support__question main-text">Доставка та оплата</div>
+                    <div class=" block-support__item_active">
+                       <p class="block-support__text_active">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquam mollitia necessitatibus! Eveniet odio officiis non. Architecto vitae reprehenderit aliquam temporibus cum ipsa. Hic modi inventore incidunt, non pariatur magni!</p>
+                    </div>
+                    </label>
+                    <label class="accordion block-support__item">
+                        <input type="checkbox" name="accordion">
+                        <div class="block-support__question main-text">Відгуки</div>
+                        <div class=" block-support__item_active">
+                           <p class="block-support__text_active">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut nulla, non officia, eligendi id quis exercitationem ex reiciendis laudantium ullam quasi itaque amet similique numquam explicabo aliquam sed harum et.</p>
+                        </div>
+                     </label>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class="carousel">  
+        <div class="carousel__title">
+            <h2>вам може сподобатися</h2>
+            <div class="carousel__btn">
+                <a class="btn-back"href="#"></a>
+                <a class="btn-forward" href="#"></a>
+            </div>
+        </div>
+            <div class="carousel__product">
+                <ul class="carousel__list">
+                    <li class="carousel__item">
+                        <div class="carousel__container">
+                          <a href="" class="carousel__link carousel__image">
+                             <img  src="./images/img1-carousel.jpg">
+                         </a>
+                        </div>
+                            <h3 >Льняна вишиванка вільного крою Vintage Red</h3>
+                             <p class="carousel__price">4 200 грн.</p>
+                    </li>
+                    <li class="carousel__item hidden-item-3">
+                        <div class="carousel__container">
+                        <a href="" class="carousel__link">
+                            <img src="./images/img2-carousel.jpg" alt="alt"/>
+                        </a>
+                        </div>
+                        <h3>Легка блузка вільного крою з орнаментом Indi</h3>
+                        <p class="carousel__price">3 800 грн.</p>
+                    </li>
+                    <li class="carousel__item hidden-item-2">
+                        <div class="carousel__container">
+                        <a href="" class="carousel__link">
+                            <img src="./images/img3-carousel.jpg" alt="alt">
+                        </a>
+                         </div>
+                         <h3>Лляна вишиванка з геометричним орнаментом Nezalezhni</h3>
+                         <p>4 200 грн.</p>
+                    </li>
+                    <li class="carousel__item hidden-item" hidden-item>
+                            <img src="./images/img4-carousel.jpg" alt="alt"/>
+                            <h3>Лляна вишита сорочка чорного кольору SLOVO BLACK</h3>
+                            <p>4 200 грн.</p>
+                    </li>
+                </ul>
+                <div class="carousel__progress-bar">
+                    <p></p>
+                </div>
+            </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-wrapper">
+             <a href="#logo-anchor" class="footer__anchor"><img src="./images/anchor.png"></a>
+        </div>
+        <a href="#" class="logo"><img src="./images/logo.svg"></a>
+        <div class="footer__about">
+            <ul class="footer__about-list">
+                <li class="footer__about-item"><a href="#" class="footer__about-link">Про нас</a></li>
+                <li class="footer__about-item"><a href="#" class="footer__about-link">Команда</a></li>
+                <li class="footer__about-item"><a href="#" class="footer__about-link">Блог</a></li>
+                <li class="footer__about-item current-item"><a href="#" class="footer__about-link current-link">Drabyna</a></li>
+                <li class="footer__about-item"><a href="#" class="footer__about-link">Цікава інформація</a></li>
+                <li class="footer__about-item"><a href="#" class="footer__about-link">Вакансії</a></li>
+                <li class="footer__about-item"><a href="#" class="footer__about-link">Доставка та оплата</a></li>
+                <li class="footer__about-item current-item"><a href="#" class="footer__about-link current-link">Етнодім Маніфест</a></li>
+            </ul>
+        </div>
+        <div class="footer__contacts">
+            <p class="footer__text"><a class="footer__text-link" href="#">Контакти</a></p>
+            <p class="footer__text">+38 097 888 92 92</p>
+            <p class="footer__text">Україна, м. Київ, вул. Верхній Вал 58/28</p>
+            <p class="footer__text">пн-пт 10:00-20:00 <span>сб-нд 11:00-19:00</span></p>
+            <p class="footer__social-contacts">© «Етнодім» 2009-2021</p>
+        </div>
+        <div class="footer__social">
+            <p><a class="footer__social-title" href="#">Соціальні мережі</a></p>
+            <ul class="footer__social-list">
+                <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link_facebook"></a></li>
+                <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link_youtube"></a></li>
+                <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link_mail"></a></li>
+                <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link_pinterest"></a></li>
+                <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link_instagram"></a></li>
+            </ul>
+            <p class="footer__social-author">© «Етнодім» 2009-2021</p>
+        </div>
+    </footer>
+</body>
